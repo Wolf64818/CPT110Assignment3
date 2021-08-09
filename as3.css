@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+html{font-size: 14pt;}
+
+body
+{
+  font-family: 'Open Sans', sans-serif;
+  font-size:1rem;
+  margin: 0;
+  background-color: #212121;
+  color: #C0C0C0;
+  text-align: justify;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+
+h1
+{
+  font-size: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  text-align: center;
+  background: #4F54A5;
+  color: #00FDFF;
+  margin-left: -3rem;
+  margin-right: -3rem;
+}
+
+.navbar
+{
+  font-size: 1.2rem;
+  margin-left: -3rem;
+  margin-right: -3rem;
+  margin-top: -2rem;
+  overflow: hidden;
+  background-color: #353535;
+  text-align: left;
+  margin-bottom: 4rem;
+  font-weight: 600;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #9437FF;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #AA2BAA;
+  color: black;
+}
+
+.footer {
+  padding-top: 1.5rem;
+  text-align: right;
+  color: #9437FF;
+  font-size:0.9rem;
+}
